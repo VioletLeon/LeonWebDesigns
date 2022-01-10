@@ -3,7 +3,7 @@ import Navbar from './components/navbar';
 
 export default function Home() {
   return (
-    <div className="backgroundImage flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="backgroundImageMobile flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
         <title>Leon Web Designs</title>
         <link rel="icon" href="/favicon.ico" />
@@ -15,10 +15,7 @@ export default function Home() {
         <div className=""></div>
         <h1 className="text-6xl text-white mb-5">
           Hello, I'm{' '}
-          <span
-            className="text-6xl font-bold text-lightPurple typewriter"
-            href="https://nextjs.org"
-          >
+          <span className="text-6xl font-bold text-lightPurple typewriter">
             Violet Leon.
           </span>
           <p className="mt-3">I'm a full-stack developer.</p>
