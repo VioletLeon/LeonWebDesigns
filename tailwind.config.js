@@ -10,6 +10,9 @@ module.exports = {
         lightBlue: '#a5b0ff',
         backgroundPrimary: '#0b121a',
       },
+      theme: {
+        cardWidth: '75px',
+      },
     },
   },
   plugins: [],
