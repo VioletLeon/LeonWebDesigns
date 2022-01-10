@@ -13,7 +13,7 @@ export default function Home() {
         <h1 className="text-6xl text-white mb-5">
           Hello, I'm{' '}
           <span
-            className="text-6xl font-bold text-lightPurple typewriter"
+            className="text-6xl font-bold text-lightPurple"
             href="https://nextjs.org"
           >
             Violet Leon.
