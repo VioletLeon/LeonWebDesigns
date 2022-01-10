@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       colors: {
         lightPurple: '#a557a3',
+        backgroundPrimary: '#0b121a',
       },
     },
   },
