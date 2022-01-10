@@ -1,7 +1,9 @@
 .backgroundImage {
-  background-image: url(../assets/svg/SpeedLine4.svg);
+  background-image: url(../assets/svg/SpeedLine5.svg);
 }
 
-.backgroundImageMobile {
-  background-image: url(../assets/svg/SpeedLineMobile2.svg);
+@media only screen and (max-width: 900px) {
+  .backgroundImage {
+    background-image: url(../assets/svg/SpeedLineMobile2.svg);
+  }
 }

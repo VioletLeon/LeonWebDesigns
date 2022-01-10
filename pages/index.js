@@ -3,7 +3,7 @@ import Navbar from './components/navbar';
 
 export default function Home() {
   return (
-    <div className="backgroundImageMobile flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="backgroundImage flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
         <title>Leon Web Designs</title>
         <link rel="icon" href="/favicon.ico" />
