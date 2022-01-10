@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="backgroundImage flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
         <title>Leon Web Designs</title>
         <link rel="icon" href="/favicon.ico" />
@@ -10,10 +10,10 @@ export default function Home() {
 
       <main className="flex flex-col items-center justify-center flex-1 px-20 text-center">
         <div className=""></div>
-        <h1 className="text-6xl mb-5">
+        <h1 className="text-6xl text-white mb-5">
           Hello, I'm{' '}
           <span
-            className="text-6xl font-bold text-blue-600 typewriter"
+            className="text-6xl font-bold text-lightPurple typewriter"
             href="https://nextjs.org"
           >
             Violet Leon.
