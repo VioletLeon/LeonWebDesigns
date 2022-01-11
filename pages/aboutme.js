@@ -13,12 +13,16 @@ import {
   faJs,
   faAws,
   faMicrosoft,
+  faLinkedin,
+  faTwitter,
+  faGithub,
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
   return (
-    <div className="bg-backgroundPrimary flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="backgroundImage flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
         <title>Leon Web Designs</title>
         <link rel="icon" href="/favicon.ico" />
@@ -26,30 +30,48 @@ export default function Home() {
 
       <Navbar />
 
-      <main className="flex flex-col items-center justify-center flex-1 px-20 text-center">
-        <div className="flex sm:flex-row flex-col">
-          <div className="flex flex-col bg-white max-w-sm">
+      <main className="flex flex-col justify-center flex-1 px-20 text-center min-w-full">
+        <div className="flex sm:flex-row flex-col justify-evenly">
+          <div className="flex flex-col bg-backgroundSecondary border-gray-900 hover:border-lightBlue border-4 max-w-sm align-center justify-center">
             <div className="">
-              <h2 className="text-3xl mb-5">About me:</h2>
+              <h2 className="text-4xl mb-5">About me:</h2>
             </div>
-            <div className="">
-              <p>
+            <div className="text-xl">
+              <p className="">
                 I'm a recent bootgramp graduate from{' '}
-                <span className="bold">Fullstack Academy</span> and I'm
-                interested in mobile development and front-end technologies.{' '}
+                <span className="text-lightPurple">Fullstack Academy</span> and
+                I'm interested in mobile development and front-end technologies.{' '}
               </p>
-              <p>
+              <p></p>
+              <p className="mt-10">
                 If you're interested in working with me please,{' '}
-                <Link className="text-lightPurple" href="/contact">
-                  contact me
+                <Link href="/contact">
+                  <span className="text-lightPurple hover:text-lightBlue text-lg bold">
+                    {' '}
+                    contact me{' '}
+                  </span>
                 </Link>
               </p>
             </div>
+            <div className="flex flex-row justify-end">
+              <div className="m-10 mb-20 max-w-[50px] max-h-[75px] text-lightPurple hover:text-lightBlue">
+                <FontAwesomeIcon className="" icon={faGithub} />
+                <span>Github</span>
+              </div>
+              <div className="m-10 max-w-[50px] max-h-[75px] text-lightPurple hover:text-lightBlue">
+                <FontAwesomeIcon className="" icon={faLinkedin} />
+                <span>LinkedIn</span>
+              </div>
+              <div className="m-10 max-w-[50px] max-h-[75px] text-lightPurple hover:text-lightBlue">
+                <FontAwesomeIcon className="" icon={faTwitter} />
+                <span>Twitter</span>
+              </div>
+            </div>
           </div>
 
-          <div className="flex flex-col  max-w-lg">
+          <div className="flex flex-col bg-backgroundSecondary border-gray-900 hover:border-lightBlue border-4 max-w-lg">
             <h2 className="text-3xl mb-5">Skills:</h2>
-            <div className="flex flex-row flex-wrap justify-evenly">
+            <div className="flex flex-row flex-wrap justify-evenly justify-items-center">
               <div className="m-5 max-w-[75px] max-h-[75px] text-lightBlue">
                 <FontAwesomeIcon className="" icon={faReact} />
                 <span>React.JS</span>

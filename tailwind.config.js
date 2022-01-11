@@ -9,6 +9,7 @@ module.exports = {
         lightPurple: '#a557a3',
         lightBlue: '#a5b0ff',
         backgroundPrimary: '#0b121a',
+        backgroundSecondary: '#202e3e',
       },
       theme: {
         cardWidth: '75px',
