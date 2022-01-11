@@ -22,7 +22,7 @@ import { faLink } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
   return (
-    <div className="backgroundImage flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="backgroundImage flex flex-col items-center justify-center min-h-screen min-w-screen py-2">
       <Head>
         <title>Leon Web Designs</title>
         <link rel="icon" href="/favicon.ico" />
@@ -87,7 +87,7 @@ export default function Home() {
 
           <div className="flex flex-col bg-backgroundSecondary border-gray-900 hover:border-lightBlue border-4 p-16 max-w-3xl">
             <h2 className="text-3xl mb-5">Skills:</h2>
-            <div className="flex flex-row flex-wrap justify-center">
+            <div className="flex sm:flex-row flex-col flex-wrap justify-center text-center justify-items-center ml-10 md:ml-0">
               <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
                 <FontAwesomeIcon className="" icon={faReact} />
                 <span>React.JS</span>
@@ -98,7 +98,6 @@ export default function Home() {
                 <span>Node.JS</span>
               </div>
               <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
-                {' '}
                 <FontAwesomeIcon className="" icon={faGit} />
                 <span>Git</span>
               </div>
@@ -119,7 +118,7 @@ export default function Home() {
               </div>
               <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
                 {' '}
-                <i class="icon-bootstrap text-8xl"></i>
+                <i className="icon-bootstrap text-8xl"></i>
                 <span>Bootstrap</span>
               </div>
               <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
@@ -134,7 +133,7 @@ export default function Home() {
               </div>
               <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
                 {' '}
-                <i class="icon-heroku text-8xl"></i>
+                <i className="icon-heroku text-8xl"></i>
                 <span>Heroku</span>
               </div>
               <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
@@ -144,12 +143,12 @@ export default function Home() {
               </div>
               <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
                 {' '}
-                <i class="icon-mongodb text-8xl"></i>
+                <i className="icon-mongodb text-8xl"></i>
                 <span>MongoDB</span>
               </div>
               <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
                 {' '}
-                <i class="icon-jquery text-8xl"></i>
+                <i className="icon-jquery text-8xl"></i>
                 <span>JQuery</span>
               </div>
               <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
@@ -164,7 +163,7 @@ export default function Home() {
               </div>
               <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
                 {' '}
-                <i class="icon-java text-8xl"></i>
+                <i className="icon-java text-8xl"></i>
                 <span>Java</span>
               </div>
             </div>
