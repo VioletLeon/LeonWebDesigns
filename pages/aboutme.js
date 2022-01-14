@@ -7,9 +7,7 @@ import {
   faCss3,
   faHtml5,
   faGit,
-  faGulp,
   faSass,
-  faJava,
   faJs,
   faAws,
   faMicrosoft,
@@ -18,11 +16,10 @@ import {
   faGithub,
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLink } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
   return (
-    <div className="backgroundImage flex flex-col items-center justify-center min-h-screen min-w-screen py-2">
+    <div className="backgroundImage flex flex-col items-center justify-center :h-screen py-2 scrollbar-hide">
       <Head>
         <title>Leon Web Designs</title>
         <link rel="icon" href="/favicon.ico" />
@@ -30,14 +27,14 @@ export default function Home() {
 
       <Navbar />
 
-      <main className="flex flex-col justify-center flex-1 px-40 text-center min-w-full">
-        <div className="flex sm:flex-row flex-col justify-evenly">
-          <div className="flex flex-col bg-backgroundSecondary border-gray-900 hover:border-lightBlue border-4 max-w-sm max-h-[750px] align-center justify-center p-5">
+      <main className="flex flex-col justify-center px-40 text-center min-w-screen w-[99%]">
+        <div className="flex sm:flex-row flex-col justify-evenly sm:items-start items-center">
+          <div className="flex flex-col bg-backgroundSecondary border-gray-900 hover:border-lightBlue border-4 min-w-[390px] max-w-sm max-h-[750px] align-center justify-center p-10">
             <div className="">
               <h2 className="text-4xl mb-5 text-lightPurple">About me:</h2>
             </div>
             <div className="text-xl">
-              <p className="">
+              <p className="text-white">
                 I'm a recent bootgramp graduate from{' '}
                 <span className="text-lightPurple">Fullstack Academy,</span>{' '}
                 where I created projects in a team using the{' '}
@@ -47,7 +44,7 @@ export default function Home() {
                 and I'm looking to land my first software engineering job.
               </p>
               <p></p>
-              <p className="mt-10">
+              <p className="mt-10 text-white">
                 If you're interested in working with me please, <br />
                 <Link href="/contact">
                   <button className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg sm:text-lg text-sm sm:px-5 px-2 sm:py-2.5 py-1 text-center mr-2 mb-2 mt-5 transition-all duration-700">
@@ -56,7 +53,7 @@ export default function Home() {
                 </Link>
               </p>
             </div>
-            <div className="flex flex-row justify-evenly">
+            <div className="flex flex-row justify-evenly ">
               <div className="m-10 mb-20 max-w-[50px] max-h-[50px] text-lightPurple hover:text-lightBlue focus:ring-blue-300 dark:focus:ring-blue-800">
                 <Link href="https://github.com/VioletLeon">
                   <a target="_blank">
@@ -85,8 +82,8 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-col bg-backgroundSecondary border-gray-900 hover:border-lightBlue border-4 p-16 max-w-3xl">
-            <h2 className="text-4xl mb-5">Skills:</h2>
+          <div className="flex flex-col bg-backgroundSecondary border-gray-900 hover:border-lightBlue border-4 p-16 min-w-[390px] max-w-3xl">
+            <h2 className="text-4xl mb-5 text-white">Skills:</h2>
             <div className="flex sm:flex-row flex-col flex-wrap justify-center text-center justify-items-center ml-10 md:ml-0">
               <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
                 <FontAwesomeIcon className="" icon={faReact} />
