@@ -86,7 +86,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col bg-backgroundSecondary border-gray-900 hover:border-lightBlue border-4 p-16 max-w-3xl">
-            <h2 className="text-3xl mb-5">Skills:</h2>
+            <h2 className="text-4xl mb-5">Skills:</h2>
             <div className="flex sm:flex-row flex-col flex-wrap justify-center text-center justify-items-center ml-10 md:ml-0">
               <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
                 <FontAwesomeIcon className="" icon={faReact} />
