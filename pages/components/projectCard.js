@@ -13,17 +13,17 @@ export default function projectCard(props) {
       <div className="text-xl text-white">
         <p className="">
           {' '}
-          <h1 className="text-lightBlue text-left font-bold">
+          <h1 className="text-lightBlue text-left font-bold mb-3">
             Description:
           </h1>{' '}
           {projectData.description}
         </p>
         <p>
           {' '}
-          <h1 className="text-lightBlue text-left font-bold mt-3">
+          <h1 className="text-lightBlue text-left font-bold mt-3 mb-3">
             Technologies used:
           </h1>
-          {projectData.technologies}
+          {projectData.technologies.join(', ')}
         </p>
         <p className="mt-10 text-white">
           <Link href="/contact">
