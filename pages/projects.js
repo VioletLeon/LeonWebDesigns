@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Navbar from './components/navbar';
+import Navbar from '../components/navbar';
 import Link from 'next/link';
 import {
   faReact,
@@ -21,7 +21,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
-import ProjectCard from './components/projectCard';
+import ProjectCard from '../components/projectCard';
 import { projects } from '../data/projects';
 
 export default function Home() {
