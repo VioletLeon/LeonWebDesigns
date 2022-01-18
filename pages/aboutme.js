@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div className="backgroundImage flex flex-col items-center justify-center py-2 scrollbar-hide">
       <Head>
-        <title>Leon Web Designs</title>
+        <title>About Me</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

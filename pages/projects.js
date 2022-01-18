@@ -40,14 +40,14 @@ export default function Home() {
   }
 
   return (
-    <div className="backgroundImage flex flex-col items-center justify-center py-2 overflow-x-hidden h-90%">
+    <div className="projectBackground flex flex-col items-center justify-center py-2 overflow-x-hidden h-90%">
       <Head>
-        <title>Leon Web Designs</title>
+        <title>Projects</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
       <main className="flex flex-col items-center justify-center text-center min-w-full w-screen h-full">
-        <div className="flex flex-row flex-wrap justify-center items-center">
+        <div className="flex flex-row flex-wrap justify-center items-start">
           {projectsData.length > 0 ? (
             projectsData.map((project) => {
               return <ProjectCard projectData={project} />;

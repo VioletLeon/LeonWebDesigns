@@ -137,6 +137,10 @@ table {
   }
 }
 
+.projectBackground {
+  background-image: url(../assets/svg/SpeedLineMobile2.svg);
+}
+
 /* Hide scrollbar for Chrome, Safari and Opera */
 .no-scrollbar::-webkit-scrollbar {
   display: none;

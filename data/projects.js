@@ -14,6 +14,7 @@ export const projects = [
       'Microsoft Face API',
       'Microsoft Azure Cloud Computing',
     ],
+    imageURL: '/images/Hookd.jpg',
   },
   {
     id: '2',
@@ -28,6 +29,7 @@ export const projects = [
       'Jest',
       'Vercel',
     ],
+    imageURL: '/images/ThisCatDoesNotExist.png',
   },
   {
     id: '3',
@@ -35,6 +37,7 @@ export const projects = [
     description:
       'A website that uses the NASA API to generate the last 6 pictures of the day.',
     technologies: ['Next.JS', 'Tailwind CSS', 'Axios', 'Vercel'],
+    imageURL: '/images/Spacestagram.png',
   },
   {
     id: '4',
@@ -54,6 +57,7 @@ export const projects = [
       'CSS3',
       'Heroku',
     ],
+    imageURL: '/images/PokemonCardStore.png',
   },
   {
     id: '5',
@@ -61,12 +65,15 @@ export const projects = [
     description:
       'This website! This website was created for people to look at my previous works',
     technologies: ['Next.JS', 'React.JS', 'Tailwind CSS', 'Axios', 'Vercel'],
+    imageURL: '/images/Leonwebdesigns.png',
   },
+
   {
     id: '6',
     name: 'techplate.com',
     description:
       'A website that I created for a client using basic JavaScript, JQuery, HTML5 and CSS3',
     technologies: ['JQuery', 'HTML5', 'CSS3', 'SASS', 'Gulp.JS'],
+    imageURL: '/images/Techplate.png',
   },
 ];

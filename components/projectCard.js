@@ -1,14 +1,24 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function projectCard(props) {
   const { projectData } = props;
 
   return (
-    <div className="flex flex-col bg-backgroundSecondary border-gray-900 hover:border-lightBlue border-4 max-w-sm min-h-[500px] max-h-[750px] align-center justify-center mx-10 my-20 p-10">
+    <div className="flex flex-col bg-backgroundSecondary border-gray-900 hover:border-lightBlue border-4 max-w-md min-h-[750px] max-h-[1000px] align-center justify-center m-10 p-10">
       <div className="">
         <h2 className="text-4xl mb-5 text-lightPurple font-bold">
           {projectData.name}
         </h2>
+      </div>
+      <div className="mb-5">
+        <Image
+          src={projectData.imageURL}
+          layout="responsive"
+          width="100%"
+          height="100%"
+          objectFit="contain"
+        />
       </div>
       <div className="text-xl text-white">
         <p className="">
