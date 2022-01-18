@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-export default function Navbar() {
+export default function NavbarComponent() {
   return (
-    <navbar className="flex flex-row justify-between items-center md:min-w-screen md:w-[99%] mb-10">
+    <navbar className="flex flex-row justify-between items-center md:min-w-screen md:w-[99%] mb-10 self-start">
       <div className="flex">
         <h1 className="text-white text-3xl min-w-fit pl-5 hidden md:inline">
           Leon Web Designs
