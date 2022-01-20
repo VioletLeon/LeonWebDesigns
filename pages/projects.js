@@ -36,7 +36,11 @@ export default function Home() {
   }, []);
 
   if (!projectsData.length > 0) {
-    return <div className="text-6xl text-white"> Loading </div>;
+    return (
+      <div className="projectBackground flex flex-col items-center justify-center py-2 overflow-x-hidden h-screen">
+        <div className="text-6xl text-white"> Loading </div>;
+      </div>
+    );
   }
 
   return (
