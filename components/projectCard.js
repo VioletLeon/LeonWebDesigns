@@ -21,6 +21,23 @@ export default function projectCard(props) {
         />
       </div>
       <div className="text-xl text-white">
+        <p className="font-bold">
+          {projectData.websiteURL.includes('https') ? (
+            <Link href={projectData.websiteURL}>
+              <a target="_blank">Deployed Website </a>
+            </Link>
+          ) : (
+            <h1>You're already here! </h1>
+          )}
+          |
+          {projectData.githubURL.includes('github') ? (
+            <Link href={projectData.githubURL}>
+              <a target="_blank"> Github </a>
+            </Link>
+          ) : (
+            <h1> Github is private </h1>
+          )}
+        </p>
         <p className="">
           {' '}
           <h1 className="text-lightBlue text-left font-bold mb-3">

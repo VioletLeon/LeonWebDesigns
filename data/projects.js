@@ -15,6 +15,8 @@ export const projects = [
       'Microsoft Azure Cloud Computing',
     ],
     imageURL: '/images/Hookd.jpg',
+    websiteURL: 'https://expo.dev/@violetleon93/hookd',
+    githubURL: 'https://github.com/Anti-Catfish-Dating-App/HookdDatingApp',
   },
   {
     id: '2',
@@ -30,6 +32,8 @@ export const projects = [
       'Vercel',
     ],
     imageURL: '/images/ThisCatDoesNotExist.png',
+    websiteURL: 'https://this-cat-does-not-exist.vercel.app',
+    githubURL: 'https://github.com/VioletLeon/ThisCatDoesNotExist',
   },
   {
     id: '3',
@@ -38,6 +42,8 @@ export const projects = [
       'A website that uses the NASA API to generate the last 6 pictures of the day.',
     technologies: ['Next.JS', 'Tailwind CSS', 'Axios', 'Vercel'],
     imageURL: '/images/Spacestagram.png',
+    websiteURL: 'https://shopify-demo-ochre.vercel.app',
+    githubURL: 'https://github.com/VioletLeon/ShopifyDemo',
   },
   {
     id: '4',
@@ -58,6 +64,8 @@ export const projects = [
       'Heroku',
     ],
     imageURL: '/images/PokemonCardStore.png',
+    websiteURL: 'https://pokemoncardstore.herokuapp.com',
+    githubURL: 'https://github.com/Golden-Gorillas/GraceShopper',
   },
   {
     id: '5',
@@ -66,6 +74,8 @@ export const projects = [
       'This website! This website was created for people to look at my previous works',
     technologies: ['Next.JS', 'React.JS', 'Tailwind CSS', 'Axios', 'Vercel'],
     imageURL: '/images/Leonwebdesigns.png',
+    websiteURL: "You're already here!",
+    githubURL: 'https://github.com/VioletLeon/LeonWebDesigns',
   },
 
   {
@@ -75,5 +85,7 @@ export const projects = [
       'A website that I created for a client using basic JavaScript, JQuery, HTML5 and CSS3',
     technologies: ['JQuery', 'HTML5', 'CSS3', 'SASS', 'Gulp.JS'],
     imageURL: '/images/Techplate.png',
+    websiteURL: 'https://techplate.com/',
+    githubURL: 'Private',
   },
 ];
