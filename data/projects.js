@@ -69,7 +69,7 @@ export const projects = [
   },
   {
     id: '5',
-    name: 'leonwebdesigns.com',
+    name: 'Leonwebdesigns.com',
     description:
       'This website! This website was created for people to look at my previous works',
     technologies: ['Next.JS', 'React.JS', 'Tailwind CSS', 'Axios', 'Vercel'],
@@ -80,7 +80,7 @@ export const projects = [
 
   {
     id: '6',
-    name: 'techplate.com',
+    name: 'Techplate.com',
     description:
       'A website that I created for a client using basic JavaScript, JQuery, HTML5 and CSS3',
     technologies: ['JQuery', 'HTML5', 'CSS3', 'SASS', 'Gulp.JS'],

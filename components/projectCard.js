@@ -21,7 +21,7 @@ export default function projectCard(props) {
         />
       </div>
       <div className="text-xl text-white">
-        <p className="font-bold">
+        <p className="font-bold mb-5">
           {projectData.websiteURL.includes('https') ? (
             <Link href={projectData.websiteURL}>
               <a target="_blank">Deployed Website </a>
