@@ -32,7 +32,7 @@ export default function Home() {
       <main className=" bg-backgroundSecondary flex flex-col items-center justify-center text-center w-[90%] h-full rounded-3xl">
         {' '}
         {!projectData.name ? (
-          <div className="projectBackground flex flex-col items-center justify-center py-2 overflow-x-hidden h-screen">
+          <div className="flex flex-col items-center justify-center py-2 overflow-x-hidden h-screen">
             <div className="text-6xl text-white"> Loading </div>;
           </div>
         ) : (
