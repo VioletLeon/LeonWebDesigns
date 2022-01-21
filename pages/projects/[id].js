@@ -29,11 +29,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-
-      {!projectData.name ? (
-        <h1 className="text-white text-6xl">Loading...</h1>
-      ) : (
-        <main className="flex flex-col items-center justify-center text-center w-[90%] h-screen bg-backgroundSecondary border-gray-900 rounded-3xl">
+      <main className="flex flex-col items-center justify-center text-center w-[90%] h-screen bg-backgroundSecondary border-gray-900 rounded-3xl">
+        {!projectData.name ? (
+          <h1 className="text-white text-6xl">Loading...</h1>
+        ) : (
           <div className="flex flex-col justify-center min-h-[100%] min-w-[100%]">
             <div className="flex flex-col justify-center items-center ">
               <div className="w-full">
@@ -84,8 +83,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </main>
-      )}
+        )}
+      </main>
     </div>
   );
 }
