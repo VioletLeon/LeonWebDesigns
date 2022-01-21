@@ -53,7 +53,7 @@ export default function projectCard(props) {
           {projectData.technologies.join(', ')}
         </p>
         <p className="mt-10 text-white">
-          <Link href="/contact">
+          <Link href={'/projects/' + projectData.id}>
             <button className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg sm:text-lg text-sm sm:px-5 px-2 sm:py-2.5 py-1 text-center mr-2 mb-2 mt-5 transition-all duration-700">
               Read More Here!
             </button>
