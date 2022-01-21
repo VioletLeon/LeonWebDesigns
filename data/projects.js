@@ -44,7 +44,7 @@ export const projects = [
     name: 'Spacestagram',
     description:
       'A website that uses the NASA API to generate the last 6 pictures of the day.',
-    missions:
+    mission:
       'I created this for the Shopify technical challenge. The goal was to create a website that used the NASA Picture of the Day API.',
     technologies: ['Next.JS', 'Tailwind CSS', 'Axios', 'Vercel'],
     imageURL: '/images/Spacestagram.png',

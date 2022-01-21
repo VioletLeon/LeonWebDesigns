@@ -12,12 +12,15 @@ export default function Home() {
   const { id } = router.query;
 
   useEffect(() => {
+    if (!id) {
+      return;
+    }
     async function getData() {
       const { data } = await axios.get(`/api/projects/${id}`);
       setProject(data);
     }
     getData();
-  }, []);
+  }, [id]);
 
   return (
     <div className="projectBackground flex flex-col items-center justify-center py-2 overflow-x-hidden h-90%">
@@ -27,7 +30,7 @@ export default function Home() {
       </Head>
       <Navbar />
 
-      {!projectData ? (
+      {!projectData.name ? (
         <h1 className="text-white text-6xl">Loading...</h1>
       ) : (
         <main className="flex flex-col items-center justify-center text-center w-[90%] h-screen bg-backgroundSecondary border-gray-900 rounded-3xl">
