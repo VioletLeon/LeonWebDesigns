@@ -45,15 +45,16 @@ export default function Home() {
                 <hr className=" border-2 border-lightBlue w-[90%] relative left-[5%]" />
               </div>
               <div className="flex md:flex-row flex-col">
-                <div className="w-[50%] h-[80vh] p-20">
+                <div className="w-[60%] h-[80vh] p-20 md:inline hidden">
                   <Image
                     src={
                       projectData.imageURL
                         ? projectData.imageURL
                         : '/images/placeholder.jpg'
                     }
-                    width={5000}
-                    height={5000}
+                    width={500}
+                    height={500}
+                    layout={'responsive'}
                     objectFit="contain"
                   />
                 </div>
