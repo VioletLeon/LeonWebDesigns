@@ -6,6 +6,16 @@ export const projects = [
       'A team based project using agile methodologies to create a dating application to prevent catfishing.',
     mission:
       'Our mission was to create a mobile dating application that would help filter out people who would pretend to be other people by using facial recognition technology. ',
+    role: 'Backend Engineer / Full Stack Engineer',
+    projectDetails: [
+      'Worked in a team of 4 using agile methodologies to distribute tasks and help identify issues',
+      'Facial verification would be done via the Microsoft Face API',
+      'Facial data would be extracted from a camera picture to be used as a comparison later',
+      'Any photo was uploaded to the app would do a similarity check between the original photo taken to see if the facial data matches',
+      'React Native was our front-end framework and we created the basic pages that are involved in a dating application',
+      'Created a rating system for users to rate each other after matching',
+      'Users would be able to match once each person sent at least 2 messages',
+    ],
     technologies: [
       'React Native',
       'EXPO',
@@ -23,10 +33,12 @@ export const projects = [
   {
     id: '2',
     name: 'This Cat Does Not Exist',
+    role: 'Sole Developer',
     description:
       'A stackathon project that uses a seed to generate a cat using CSS.',
     mission:
       'I wanted to create a project that could help improve my CSS skills and I wanted to learn how creating a seed worked.',
+    technicalDifficulties: [],
     technologies: [
       'Next.JS',
       'React.JS',
@@ -42,10 +54,12 @@ export const projects = [
   {
     id: '3',
     name: 'Spacestagram',
+    role: 'Sole Developer',
     description:
       'A website that uses the NASA API to generate the last 6 pictures of the day.',
     mission:
       'I created this for the Shopify technical challenge. The goal was to create a website that used the NASA Picture of the Day API.',
+    technicalDifficulties: [],
     technologies: ['Next.JS', 'Tailwind CSS', 'Axios', 'Vercel'],
     imageURL: '/images/Spacestagram.png',
     websiteURL: 'https://shopify-demo-ochre.vercel.app',
@@ -54,9 +68,11 @@ export const projects = [
   {
     id: '4',
     name: 'Pokemon Card Store',
+    role: 'Full Stack Developer',
     description:
       'A team based project using agile methodologies to create an e-commerce website to sell Pokemon cards.',
     mission: 'Our goal was to create an e-commerce store as a team.',
+    technicalDifficulties: [],
     technologies: [
       'React.JS',
       'Express',
@@ -77,8 +93,10 @@ export const projects = [
   {
     id: '5',
     name: 'Leonwebdesigns.com',
+    role: 'Sole Developer',
     description:
       'This website! This website was created for people to look at my previous works',
+    technicalDifficulties: [],
     mission:
       'I wanted to create a personal portfolio to showcase my recent works and to be able to display my techincal abilities.',
     technologies: ['Next.JS', 'React.JS', 'Tailwind CSS', 'Axios', 'Vercel'],
@@ -90,8 +108,10 @@ export const projects = [
   {
     id: '6',
     name: 'Techplate.com',
+    role: 'Sole Developer',
     description:
       'A website that I created for a client using basic JavaScript, JQuery, HTML5 and CSS3',
+    technicalDifficulties: [],
     mission:
       'Was to create a new website for the client. They wanted something that looked modern and simple.',
     technologies: ['JQuery', 'HTML5', 'CSS3', 'SASS', 'Gulp.JS'],
