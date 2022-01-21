@@ -44,7 +44,7 @@ export default function Home() {
                 </h1>
                 <hr className=" border-2 border-lightBlue w-[90%] relative left-[5%]" />
               </div>
-              <div className="flex flex-row">
+              <div className="flex md:flex-row flex-col">
                 <div className="w-[50%] h-[80vh] p-20">
                   <Image
                     src={
