@@ -85,80 +85,80 @@ export default function Home() {
           <div className="flex flex-col bg-backgroundSecondary border-gray-900 hover:border-lightBlue border-4 p-16 min-w-[390px] max-w-3xl">
             <h2 className="text-4xl mb-5 text-white">Skills:</h2>
             <div className="flex sm:flex-row flex-col flex-wrap justify-center text-center justify-items-center ml-10 md:ml-0">
-              <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
                 <FontAwesomeIcon className="" icon={faReact} />
                 <span>React.JS</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
                 {' '}
                 <FontAwesomeIcon className="" icon={faNodeJs} />
                 <span>Node.JS</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
                 <FontAwesomeIcon className="" icon={faGit} />
                 <span>Git</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
                 {' '}
                 <FontAwesomeIcon className="" icon={faCss3} />
                 <span>CSS3</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
                 {' '}
                 <FontAwesomeIcon className="" icon={faHtml5} />
                 <span>HTML5</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
                 {' '}
                 <FontAwesomeIcon className="" icon={faSass} />
                 <span>SASS</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
                 {' '}
                 <i className="icon-bootstrap text-8xl"></i>
                 <span>Bootstrap</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
                 {' '}
                 <FontAwesomeIcon className="" icon={faAws} />
                 <span>Amazon Web Services</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
                 {' '}
                 <FontAwesomeIcon className="" icon={faMicrosoft} />
                 <span>Microsoft Azure Services</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
                 {' '}
                 <i className="icon-heroku text-8xl"></i>
                 <span>Heroku</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
                 {' '}
                 <i className="icon-postgres text-8xl"></i>
                 <span>PostgreSQL</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
                 {' '}
                 <i className="icon-mongodb text-8xl"></i>
                 <span>MongoDB</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
                 {' '}
                 <i className="icon-jquery text-8xl"></i>
                 <span>JQuery</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
                 {' '}
                 <FontAwesomeIcon className="" icon={faJs} />
                 <span>Javascript</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
                 {' '}
                 <i class="icon-csharp text-8xl"></i>
                 <span>C#</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
                 {' '}
                 <i className="icon-java text-8xl"></i>
                 <span>Java</span>
