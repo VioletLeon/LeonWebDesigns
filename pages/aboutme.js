@@ -44,14 +44,14 @@ export default function Home() {
                 and I'm looking to land my first software engineering job.
               </p>
               <p></p>
-              <p className="mt-10 text-white">
+              {/* <p className="mt-10 text-white">
                 If you're interested in working with me please, <br />
                 <Link href="/contact">
                   <button className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg sm:text-lg text-sm sm:px-5 px-2 sm:py-2.5 py-1 text-center mr-2 mb-2 mt-5 transition-all duration-700">
                     Contact Me
                   </button>
                 </Link>
-              </p>
+              </p> */}
             </div>
             <div className="flex flex-row justify-evenly ">
               <div className="m-10 mb-20 max-w-[50px] max-h-[50px] text-lightPurple hover:text-lightBlue focus:ring-blue-300 dark:focus:ring-blue-800">
