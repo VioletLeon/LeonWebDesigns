@@ -36,16 +36,16 @@ export default function Home() {
             <div className="text-6xl text-white"> Loading </div>;
           </div>
         ) : (
-          <div className="flex flex-col justify-center min-h-[100%] min-w-[100%]">
-            <div className="flex flex-col justify-center items-center p-20">
-              <div className="w-full justify-center items-center">
-                <h1 className="text-white text-6xl py-10">
+          <div className="flex flex-col justify-center items-center min-h-[100%] min-w-[100%]">
+            <div className="flex flex-col justify-center items-center pt-10">
+              <div className="flex flex-col w-full justify-center items-center">
+                <h1 className="flex text-white sm:text-6xl text-2xl py-10 flex-wrap">
                   {projectData.name}
                 </h1>
-                <hr className=" border-2 border-lightBlue w-[90%] relative left-[5%]" />
+                <hr className="border-2 border-lightBlue w-[90%] relative left-[5%]" />
               </div>
-              <div className="flex md:flex-row flex-col">
-                <div className="w-[60%] h-[80vh] p-20 md:inline hidden">
+              <div className="flex md:flex-row flex-col justify-center items-center relative left-[-10%]">
+                <div className="w-[60%] h-[80vh] p-20 sm:inline hidden">
                   <Image
                     src={
                       projectData.imageURL
@@ -58,7 +58,7 @@ export default function Home() {
                     objectFit="contain"
                   />
                 </div>
-                <div className="flex flex-col items-start pt-20 w-[40%]">
+                <div className="flex flex-col items-start pt-10 w-[40%]">
                   <div className="flex flex-col items-start text-white text-xl">
                     <h1 className="text-4xl text-lightPurple font-bold my-2">
                       Project Mission
