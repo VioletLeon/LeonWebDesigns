@@ -38,7 +38,16 @@ export const projects = [
       'A stackathon project that uses a seed to generate a cat using CSS.',
     mission:
       'I wanted to create a project that could help improve my CSS skills and I wanted to learn how creating a seed worked.',
-    technicalDifficulties: [],
+    projectDetails: [
+      'Given 2 days to create a project for an in-house stackathon',
+      'I wanted to look into to creating objects using a seed number',
+      'Used Tailwind CSS for the overall layout of the page and CSS3 to create the CSS Cat',
+      'Created YAML files with the attributes that the cat can have',
+      'You are able to "Adopt a Cat" by writing in a name and then your name the cat seed ID is saved on the Firestore.',
+      'You are able to share you exact cat with other people by sharing the seed ID.',
+      'Tested the base CSS cat using the Jest snapshot feature',
+      'Continous deployment done via Vercel.',
+    ],
     technologies: [
       'Next.JS',
       'React.JS',
@@ -59,7 +68,13 @@ export const projects = [
       'A website that uses the NASA API to generate the last 6 pictures of the day.',
     mission:
       'I created this for the Shopify technical challenge. The goal was to create a website that used the NASA Picture of the Day API.',
-    technicalDifficulties: [],
+    projectDetails: [
+      'The challenge was to createa basic template while using NASAs picture of the day API',
+      'I used an SVG animation for the background to give the "spacey" feeling',
+      'I primarily used Tailwind CSS to create the general layout',
+      'Axios was used to do HTTP requests the picture of the day API',
+      'The project is currently hosted on Vercel.',
+    ],
     technologies: ['Next.JS', 'Tailwind CSS', 'Axios', 'Vercel'],
     imageURL: '/images/Spacestagram.png',
     websiteURL: 'https://shopify-demo-ochre.vercel.app',
@@ -72,7 +87,16 @@ export const projects = [
     description:
       'A team based project using agile methodologies to create an e-commerce website to sell Pokemon cards.',
     mission: 'Our goal was to create an e-commerce store as a team.',
-    technicalDifficulties: [],
+    projectDetails: [
+      'Worked in a team of four to create an e-commerce website',
+      'Everyday we would do a daily standup with on of mentors and talk about blocks, what we did yesterday and what we did today',
+      'I did a lot of pair programming with team members to help debug and teach them concepts',
+      'We created a database "cart" for purchases for signed in users and a local storage "cart" for guest users',
+      'Implemented Stripe for payment processing.',
+      'Used the Pokemon TCG API to seed our database with accurate and relevent information',
+      'Used a PostgreSQL server to store customer information, card information, and cart information',
+      'Used JSON Web Tokens for authentication, used to secure our Express API routes',
+    ],
     technologies: [
       'React.JS',
       'Express',
@@ -96,7 +120,7 @@ export const projects = [
     role: 'Sole Developer',
     description:
       'This website! This website was created for people to look at my previous works',
-    technicalDifficulties: [],
+    projectDetails: [],
     mission:
       'I wanted to create a personal portfolio to showcase my recent works and to be able to display my techincal abilities.',
     technologies: ['Next.JS', 'React.JS', 'Tailwind CSS', 'Axios', 'Vercel'],
@@ -111,7 +135,7 @@ export const projects = [
     role: 'Sole Developer',
     description:
       'A website that I created for a client using basic JavaScript, JQuery, HTML5 and CSS3',
-    technicalDifficulties: [],
+    projectDetails: [],
     mission:
       'Was to create a new website for the client. They wanted something that looked modern and simple.',
     technologies: ['JQuery', 'HTML5', 'CSS3', 'SASS', 'Gulp.JS'],

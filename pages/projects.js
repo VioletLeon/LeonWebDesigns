@@ -44,7 +44,7 @@ export default function Home() {
   }
 
   return (
-    <div className="projectBackground flex flex-col items-center justify-center py-2 overflow-x-hidden h-90%">
+    <div className="projectBackground flex flex-col items-center justify-center py-2 overflow-x-hidden h-90% font-raleway">
       <Head>
         <title>Projects</title>
         <link rel="icon" href="/favicon.ico" />

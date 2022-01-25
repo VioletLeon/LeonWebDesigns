@@ -58,7 +58,7 @@ export default function Home() {
                 <Link href="https://github.com/VioletLeon">
                   <a target="_blank">
                     {' '}
-                    <FontAwesomeIcon className="" icon={faGithub} />
+                    <FontAwesomeIcon className="text-4xl" icon={faGithub} />
                   </a>
                 </Link>
                 <span>Github</span>
@@ -66,7 +66,7 @@ export default function Home() {
               <div className="m-10 max-w-[50px] max-h-[50px] text-lightPurple hover:text-lightBlue">
                 <Link href="https://www.linkedin.com/in/violetleon/">
                   <a target="_blank">
-                    <FontAwesomeIcon className="" icon={faLinkedin} />
+                    <FontAwesomeIcon className="text-4xl" icon={faLinkedin} />
                   </a>
                 </Link>
                 <span>LinkedIn</span>
@@ -74,7 +74,7 @@ export default function Home() {
               <div className="m-10 max-w-[50px] max-h-[50px] text-lightPurple hover:text-lightBlue focus:ring-blue-300 dark:focus:ring-blue-800">
                 <Link href="https://twitter.com/VioletteBunny">
                   <a target="_blank">
-                    <FontAwesomeIcon className="" icon={faTwitter} />
+                    <FontAwesomeIcon className="text-4xl" icon={faTwitter} />
                   </a>
                 </Link>
                 <span>Twitter</span>
@@ -85,80 +85,80 @@ export default function Home() {
           <div className="flex flex-col bg-backgroundSecondary border-gray-900 hover:border-lightBlue border-4 p-16 min-w-[390px] max-w-3xl">
             <h2 className="text-4xl mb-5 text-white">Skills:</h2>
             <div className="flex sm:flex-row flex-col flex-wrap justify-center text-center justify-items-center ml-10 md:ml-0">
-              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
-                <FontAwesomeIcon className="" icon={faReact} />
+              <div className="m-10 max-w-[75px] max-h-[75px] min-h-[60px] min-w-[60px] text-lightBlue hover:text-lightPurple">
+                <FontAwesomeIcon className="text-8xl" icon={faReact} />
                 <span>React.JS</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] min-h-[60px] min-w-[60px] text-lightBlue hover:text-lightPurple">
                 {' '}
-                <FontAwesomeIcon className="" icon={faNodeJs} />
+                <FontAwesomeIcon className="text-8xl" icon={faNodeJs} />
                 <span>Node.JS</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
-                <FontAwesomeIcon className="" icon={faGit} />
+              <div className="m-10 max-w-[75px] max-h-[75px] min-h-[60px] min-w-[60px] text-lightBlue hover:text-lightPurple">
+                <FontAwesomeIcon className="text-8xl" icon={faGit} />
                 <span>Git</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] min-h-[60px] min-w-[60px] text-lightBlue hover:text-lightPurple">
                 {' '}
-                <FontAwesomeIcon className="" icon={faCss3} />
+                <FontAwesomeIcon className="text-8xl" icon={faCss3} />
                 <span>CSS3</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] min-h-[60px] min-w-[60px] text-lightBlue hover:text-lightPurple">
                 {' '}
-                <FontAwesomeIcon className="" icon={faHtml5} />
+                <FontAwesomeIcon className="text-8xl" icon={faHtml5} />
                 <span>HTML5</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] min-h-[60px] min-w-[60px] text-lightBlue hover:text-lightPurple">
                 {' '}
-                <FontAwesomeIcon className="" icon={faSass} />
+                <FontAwesomeIcon className="text-8xl" icon={faSass} />
                 <span>SASS</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] min-h-[60px] min-w-[60px] text-lightBlue hover:text-lightPurple">
                 {' '}
                 <i className="icon-bootstrap text-8xl"></i>
                 <span>Bootstrap</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] min-h-[60px] min-w-[60px] text-lightBlue hover:text-lightPurple">
                 {' '}
-                <FontAwesomeIcon className="" icon={faAws} />
+                <FontAwesomeIcon className="text-8xl" icon={faAws} />
                 <span>Amazon Web Services</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] min-h-[60px] min-w-[60px] text-lightBlue hover:text-lightPurple">
                 {' '}
-                <FontAwesomeIcon className="" icon={faMicrosoft} />
+                <FontAwesomeIcon className="text-8xl" icon={faMicrosoft} />
                 <span>Microsoft Azure Services</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] min-h-[60px] min-w-[60px] text-lightBlue hover:text-lightPurple">
                 {' '}
                 <i className="icon-heroku text-8xl"></i>
                 <span>Heroku</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] min-h-[60px] min-w-[60px] text-lightBlue hover:text-lightPurple">
                 {' '}
                 <i className="icon-postgres text-8xl"></i>
                 <span>PostgreSQL</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] min-h-[60px] min-w-[60px] text-lightBlue hover:text-lightPurple">
                 {' '}
                 <i className="icon-mongodb text-8xl"></i>
                 <span>MongoDB</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] min-h-[60px] min-w-[60px] text-lightBlue hover:text-lightPurple">
                 {' '}
                 <i className="icon-jquery text-8xl"></i>
                 <span>JQuery</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] min-h-[60px] min-w-[60px] text-lightBlue hover:text-lightPurple">
                 {' '}
-                <FontAwesomeIcon className="" icon={faJs} />
+                <FontAwesomeIcon className="text-8xl" icon={faJs} />
                 <span>Javascript</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] min-h-[60px] min-w-[60px] text-lightBlue hover:text-lightPurple">
                 {' '}
                 <i class="icon-csharp text-8xl"></i>
                 <span>C#</span>
               </div>
-              <div className="m-10 max-w-[75px] max-h-[75px] w-[75px] h-[75px] text-lightBlue hover:text-lightPurple">
+              <div className="m-10 max-w-[75px] max-h-[75px] min-h-[60px] min-w-[60px] text-lightBlue hover:text-lightPurple">
                 {' '}
                 <i className="icon-java text-8xl"></i>
                 <span>Java</span>

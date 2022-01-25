@@ -11,7 +11,7 @@ export default function Home() {
 
       <Navbar />
 
-      <main className="flex flex-col items-center justify-center flex-1 px-40 text-center min-w-full w-screen">
+      <main className="flex flex-col items-center justify-center flex-1 px-40 text-center min-w-full w-screen font-raleway">
         <div className=""></div>
         <h1 className="text-6xl text-white mb-5">
           Hello, I'm{' '}

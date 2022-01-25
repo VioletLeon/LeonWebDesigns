@@ -14,6 +14,9 @@ module.exports = {
       theme: {
         cardWidth: '75px',
       },
+      fontFamily: {
+        raleway: ['raleway'],
+      },
     },
   },
   plugins: [require('tailwind-scrollbar-hide')],
