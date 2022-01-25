@@ -23,7 +23,7 @@ export default function Home() {
   }, [id]);
 
   return (
-    <div className="projectBackground flex flex-col items-center justify-center py-2 overflow-x-hidden h-90%">
+    <div className="projectBackground flex flex-col items-center justify-center py-2 overflow-x-hidden h-90% font-raleway">
       <Head>
         <title>Projects</title>
         <link rel="icon" href="/favicon.ico" />
@@ -93,21 +93,31 @@ export default function Home() {
                     <h1 className="text-4xl text-lightPurple font-bold mt-5 mb-2">
                       Links
                     </h1>
-                    <p className="font-bold mb-5 pl-5 text-lightBlue text-2xl">
+                    <p className="font-bold mb-5 pl-5 text-lightBlue text-4xl">
                       {projectData.websiteURL.includes('https') ? (
                         <Link href={projectData.websiteURL}>
-                          <a target="_blank">Deployed Website </a>
+                          <a target="_blank" className="hover:text-white">
+                            Deployed Website{' '}
+                          </a>
                         </Link>
                       ) : (
-                        "You're already here! "
+                        <span className="text-gray-200">
+                          You're already here!{' '}
+                        </span>
                       )}
                       |
                       {projectData.githubURL.includes('github') ? (
                         <Link href={projectData.githubURL}>
-                          <a target="_blank"> Github </a>
+                          <a target="_blank" className="hover:text-white">
+                            {' '}
+                            Github{' '}
+                          </a>
                         </Link>
                       ) : (
-                        ' Github is private '
+                        <span className="text-gray-200">
+                          {' '}
+                          Github is private!{' '}
+                        </span>
                       )}
                     </p>
                   </div>

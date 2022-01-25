@@ -120,7 +120,13 @@ export const projects = [
     role: 'Sole Developer',
     description:
       'This website! This website was created for people to look at my previous works',
-    projectDetails: [],
+    projectDetails: [
+      'A Next.JS based application to display my portfolio',
+      'SVG animations used for moving background',
+      'Axios to retrieve data using Next.JS built-in API routes',
+      'Tailwind to create basic components for layout',
+      'Technologies used: Next.JS, React.JS, Tailwind CSS, CSS3, Axios, Vercel',
+    ],
     mission:
       'I wanted to create a personal portfolio to showcase my recent works and to be able to display my techincal abilities.',
     technologies: ['Next.JS', 'React.JS', 'Tailwind CSS', 'Axios', 'Vercel'],
@@ -135,7 +141,13 @@ export const projects = [
     role: 'Sole Developer',
     description:
       'A website that I created for a client using basic JavaScript, JQuery, HTML5 and CSS3',
-    projectDetails: [],
+    projectDetails: [
+      'First website that I created for a client',
+      'Taught myself how to use JQuery and Javascript for this project',
+      'Learned how to compile and view work while working on it (using browserSync) with Gulp.JS',
+      'Created many HTML files for each page',
+      'Deployed on a VPS using Filezilla as FTP client',
+    ],
     mission:
       'Was to create a new website for the client. They wanted something that looked modern and simple.',
     technologies: ['JQuery', 'HTML5', 'CSS3', 'SASS', 'Gulp.JS'],

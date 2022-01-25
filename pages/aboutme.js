@@ -19,7 +19,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Home() {
   return (
-    <div className="backgroundImage flex flex-col items-center justify-center py-2 scrollbar-hide">
+    <div className="backgroundImage flex flex-col items-center justify-center py-2 font-raleway">
       <Head>
         <title>About Me</title>
         <link rel="icon" href="/favicon.ico" />
