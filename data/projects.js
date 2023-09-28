@@ -1,5 +1,43 @@
 export const projects = [
   {
+    id: '7',
+    name: 'Artfora',
+    role: 'Founding Full Stack Engineer',
+    description:
+      'A collaborative platform for artists to showcase their work, connect with other creators, and get inspired.',
+    mission:
+      'The mission was to create a space where artists can shine, connect, and thrive.',
+    projectDetails: [
+      'Developed a user-friendly interface for artists to upload and present their work.',
+      'Created a dynamic gallery feature for users to explore and discover new art.',
+      'Implemented social features for artists to interact and collaborate.',
+      'Integrated a recommendation engine for personalized art suggestions.',
+    ],
+    technologies: ['React.JS', 'Node.JS', 'MongoDB', 'JWT', 'AWS S3'],
+    imageURL: '/images/Artfora.png',
+    websiteURL: 'https://artfora.example',
+    githubURL: 'https://github.com/ArtforaRepo',
+  },
+  {
+    id: '8',
+    name: 'New World Inc',
+    role: 'Team Lead / Full Stack Developer',
+    description:
+      'A corporate website for a dynamic company, showcasing services, projects, and career opportunities.',
+    mission:
+      'Our mission was to create a website that represents our company’s values and projects.',
+    projectDetails: [
+      'Led a team of 5 developers to create the company website.',
+      'Collaborated with the design team to implement a modern and informative UI.',
+      'Designed interactive project showcases to highlight the company’s work.',
+      'Ensured optimal performance and responsiveness for all users.',
+    ],
+    technologies: ['React.JS', 'Node.JS', 'Express', 'MongoDB', 'Heroku'],
+    imageURL: '/images/NewWorldInc.png',
+    websiteURL: 'https://newworldinc.example',
+    githubURL: 'https://github.com/NewWorldIncWebsiteRepo',
+  },
+  {
     id: '1',
     name: "Hook'd",
     description:

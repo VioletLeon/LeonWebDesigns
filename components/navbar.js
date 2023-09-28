@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function NavbarComponent() {
   return (
-    <navbar className="flex flex-row justify-between items-center md:min-w-screen md:w-[99%] mb-10">
+    <navbar className="flex flex-row justify-between items-center md:min-w-screen md:w-[99%] pt-2">
       <div className="flex">
         <h1 className="text-white text-3xl min-w-fit pl-5 hidden sm:inline">
           Leon Web Designs
@@ -15,7 +15,7 @@ export default function NavbarComponent() {
             Home
           </button>
         </Link>
-        <Link href="/aboutme">
+        <Link href="/about-me">
           <button className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800 min-w-[75px] min-h-[40px] font-medium rounded-lg sm:text-lg text-sm sm:px-5 px-2 sm:py-2.5 py-1 text-center mr-2 mb-2 hover:scale-125 transition-all duration-700">
             About Me
           </button>
