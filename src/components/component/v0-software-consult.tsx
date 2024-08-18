@@ -280,10 +280,10 @@ export default function LandingPage() {
           <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight text-primary">
-                Have questions? Let's talk.
+                Have questions? Lets talk.
               </h2>
               <p className="mx-auto max-w-[600px] text-secondary-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                We're here to help you achieve your business goals. Contact us
+                Were here to help you achieve your business goals. Contact us
                 today to schedule a consultation.
               </p>
             </div>
