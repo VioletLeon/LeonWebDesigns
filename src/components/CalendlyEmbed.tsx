@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 //@ts-ignore
-const CalendlyEmbed = ({ url }) => {
+const CalendlyEmbed = () => {
   useEffect(() => {
     const head = document.querySelector('head');
     const script = document.createElement('script');
@@ -11,9 +11,22 @@ const CalendlyEmbed = ({ url }) => {
     );
     //@ts-ignore
     head.appendChild(script);
+
+    return () => {
+      // Cleanup the script when the component is unmounted or URL changes
+      if (script.parentNode) {
+        script.parentNode.removeChild(script);
+      }
+    };
   }, []);
 
-  return <div className="min-w-[320px] h-[700px] w-full" data-url={url}></div>;
+  return (
+    <div
+      className="calendly-inline-widget h-[700px]"
+      data-url="https://calendly.com/violet-leonwebdesigns/30min"
+      style={{ minHeight: '650px', width: '100%' }}
+    ></div>
+  );
 };
 
 export default CalendlyEmbed;

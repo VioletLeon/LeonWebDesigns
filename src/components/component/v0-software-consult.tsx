@@ -108,7 +108,7 @@ export default function LandingPage() {
                 </p>
                 <div className="mt-6">
                   <Link
-                    href="#contact"
+                    href="#calendly"
                     className="inline-flex h-9 items-center justify-center rounded-md bg-primary-foreground px-4 py-2 text-sm font-medium text-primary shadow transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                     prefetch={false}
                   >
@@ -263,15 +263,18 @@ export default function LandingPage() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-40 bg-gray-200 min-[700px] text-center">
+        <section
+          id="calendly"
+          className="w-full py-12 md:py-24 lg:py-40 bg-gray-200 min-[700px] text-center"
+        >
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
             Schedule an Appointment
           </h2>
-          <p className="mx-auto max-w-[600px] text-secondary-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+          <p className="mx-auto mt-4 max-w-[600px] text-secondary-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             Ready to take the next step? Schedule a consultation with one of our
             experts today.
           </p>
-          <CalendlyEmbed url="https://calendly.com/violet-leonwebdesigns/30min" />
+          <CalendlyEmbed />
         </section>
         <section
           id="contact"
