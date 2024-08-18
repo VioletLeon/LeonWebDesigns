@@ -193,6 +193,75 @@ export default function LandingPage() {
             </div>
           </div>
         </section>
+        <section className="w-full py-12 md:py-24 lg:py-40 bg-slate-100 ">
+          <div className="container space-y-12 px-4 md:px-6 justify-center items-center flex-row">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
+                  Trusted Partners
+                </h2>
+                <p className="max-w-[900px] text-primary-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  We work with leading companies in the industry to deliver the
+                  best solutions for our clients.
+                </p>
+              </div>
+            </div>
+            <div className="mx-auto grid items-center justify-center gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-4">
+              <div className="grid gap-4 bg-card p-6 rounded-lg h-[200px] w-[200px] justify-center items-center text-center shadow-lg border-[1px] border-black">
+                <img
+                  src="https://leon-web-designs.s3.amazonaws.com/artforapartner.jpg"
+                  alt="Artfora"
+                  width={125}
+                  height={100}
+                  className="object-contain"
+                  style={{ objectFit: 'cover' }}
+                />
+                <p className="text-md text-card-foreground font-medium">
+                  Artfora
+                </p>
+              </div>
+              <div className="grid gap-4 bg-card p-6 rounded-lg h-[200px] w-[200px] justify-center items-center text-center shadow-lg border-[1px] border-black">
+                <img
+                  src="https://leon-web-designs.s3.amazonaws.com/newworldpart.png"
+                  alt="New World Inc."
+                  width={125}
+                  height={100}
+                  className="object-contain"
+                  style={{ objectFit: 'cover' }}
+                />
+                <p className="text-sm text-card-foreground font-medium">
+                  New World Inc.
+                </p>
+              </div>
+              <div className="grid gap-4 bg-card p-6 rounded-lg h-[200px] w-[200px] justify-center items-center text-center shadow-lg border-[1px] border-black">
+                <img
+                  src="https://leon-web-designs.s3.amazonaws.com/tp_logo.png"
+                  alt="Partner 3"
+                  width={125}
+                  height={100}
+                  className="object-contain"
+                  style={{ objectFit: 'cover' }}
+                />
+                <p className="text-sm text-card-foreground font-medium">
+                  Tech Plate
+                </p>
+              </div>
+              <div className="grid gap-4 bg-card p-6 rounded-lg h-[200px] w-[200px] justify-center items-center text-center shadow-lg border-[1px] border-black">
+                <img
+                  src="https://leon-web-designs.s3.amazonaws.com/Bourbonality-Straight-Alpha-40.webp"
+                  alt="Partner 4"
+                  width={150}
+                  height={100}
+                  className="object-contain"
+                  style={{ objectFit: 'cover' }}
+                />
+                <p className="text-sm text-card-foreground font-medium">
+                  Bourbonality
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
         <section
           id="contact"
           className="w-full py-12 md:py-24 lg:py-32 bg-muted"
