@@ -15,22 +15,49 @@ const ses = new AWS.SES({ apiVersion: '2010-12-01' });
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   try {
     // Extract email, name, and company from request body
-    const { email, name, company } = req.body;
+    const {
+      email,
+      name,
+      company,
+      message,
+    }: {
+      email: string;
+      name: string;
+      company: string;
+      message: string;
+    } = req.body;
 
     // Validate email, name, and company (you can add your own validation logic here)
-    if (!email || !name || !company) {
+    if (!email || !name || !company || !message) {
       return res.status(400).json({ message: 'Please fill out all fields' });
     }
 
+    const businessParams = {
+      Destination: {
+        ToAddresses: ['violet@leonwebdesigns.com'],
+      },
+      Message: {
+        Body: {
+          Text: {
+            Data: `Name: ${name}\nEmail: ${email}\nCompany: ${company} \n \n ${message}`,
+          },
+        },
+        Subject: {
+          Data: `New contact form message from ${name} at ${company}`,
+        },
+      },
+      Source: 'violet@leonwebdesigns.com',
+    };
+
     // Send email using SES
-    const params = {
+    const senderParams = {
       Destination: {
         ToAddresses: [email],
       },
       Message: {
         Body: {
           Text: {
-            Data: `Hello ${name},\n\nThank you for contacting us. We will get back to you shortly.\n\nBest regards,\nLeon Web Designs \n \nThis is an automated email.`,
+            Data: `Hello ${name}, \nThank you for contacting us. We will get back to you shortly.\n\nBest regards,\nLeon Web Designs \n \nThis is an automated email.`,
           },
         },
         Subject: {
@@ -40,7 +67,8 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
       Source: 'violet@leonwebdesigns.com',
     };
 
-    await ses.sendEmail(params).promise();
+    await ses.sendEmail(senderParams).promise();
+    await ses.sendEmail(businessParams).promise();
 
     res.status(200).json({ message: 'Email sent successfully' });
   } catch (error) {

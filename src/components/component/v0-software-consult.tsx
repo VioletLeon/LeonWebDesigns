@@ -30,18 +30,50 @@ import { Button } from '@/components/ui/button';
 import LeonWebDesignsLogo from '../LeonWebDesignsLogo';
 
 export default function LandingPage() {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    //@ts-ignore
+    const name = e.currentTarget.name.value;
+    const email = e.currentTarget.email.value;
+    const company = e.currentTarget.company.value;
+    const message = e.currentTarget.message.value;
+
+    const data = {
+      name,
+      email,
+      company,
+      message,
+    };
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (response.ok) {
+        // Handle successful submission
+        console.log('Form submitted successfully');
+      } else {
+        // Handle error
+        console.error('Form submission failed');
+      }
+    } catch (error) {
+      // Handle network error
+      console.error('Network error:', error);
+    }
+  };
+
   return (
     <div className="flex flex-col min-h-screen">
       <header className="px-4 lg:px-6 h-16 flex items-center bg-primary text-primary-foreground">
-        <Link
-          href="#"
-          className="flex items-center justify-center"
-          prefetch={false}
-        >
-          <LeonWebDesignsLogo className="h-10 fill-white" />
-          <span className="sr-only">Leon Web Designs</span>
-          <span className="px-4 font-bold">Leon Web Designs</span>
-        </Link>
+        <LeonWebDesignsLogo className="h-10 fill-white" />
+        <span className="sr-only">Leon Web Designs</span>
+        <span className="px-4 font-bold">Leon Web Designs</span>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link
             href="#services"
@@ -75,7 +107,7 @@ export default function LandingPage() {
                 </p>
                 <div className="mt-6">
                   <Link
-                    href="#"
+                    href="#contact"
                     className="inline-flex h-9 items-center justify-center rounded-md bg-primary-foreground px-4 py-2 text-sm font-medium text-primary shadow transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                     prefetch={false}
                   >
@@ -175,7 +207,10 @@ export default function LandingPage() {
                 software experts.
               </p>
             </div>
-            <form className="mx-auto w-full max-w-md space-y-4">
+            <form
+              className="mx-auto w-full max-w-md space-y-4"
+              onSubmit={handleSubmit}
+            >
               <Input
                 type="text"
                 id="name"
@@ -213,7 +248,7 @@ export default function LandingPage() {
         <p className="text-xs">
           &copy; 2024 Leon Web Designs. All rights reserved.
         </p>
-        <nav className="sm:ml-auto flex gap-4 sm:gap-6">
+        {/* <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link
             href="#"
             className="text-xs hover:underline underline-offset-4 text-primary-foreground"
@@ -228,7 +263,7 @@ export default function LandingPage() {
           >
             Privacy Policy
           </Link>
-        </nav>
+        </nav> */}
       </footer>
     </div>
   );
