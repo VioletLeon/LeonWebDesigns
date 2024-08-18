@@ -28,6 +28,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
 import LeonWebDesignsLogo from '../LeonWebDesignsLogo';
+import CalendlyEmbed from '../CalendlyEmbed';
 
 export default function LandingPage() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -236,7 +237,7 @@ export default function LandingPage() {
               <div className="grid gap-4 bg-card p-6 rounded-lg h-[200px] w-[200px] justify-center items-center text-center shadow-lg border-[1px] border-black">
                 <img
                   src="https://leon-web-designs.s3.amazonaws.com/tp_logo.png"
-                  alt="Partner 3"
+                  alt="Tech Plate"
                   width={125}
                   height={100}
                   className="object-contain"
@@ -249,7 +250,7 @@ export default function LandingPage() {
               <div className="grid gap-4 bg-card p-6 rounded-lg h-[200px] w-[200px] justify-center items-center text-center shadow-lg border-[1px] border-black">
                 <img
                   src="https://leon-web-designs.s3.amazonaws.com/Bourbonality-Straight-Alpha-40.webp"
-                  alt="Partner 4"
+                  alt="Bourbonality"
                   width={150}
                   height={100}
                   className="object-contain"
@@ -262,6 +263,16 @@ export default function LandingPage() {
             </div>
           </div>
         </section>
+        <section className="w-full py-12 md:py-24 lg:py-40 bg-gray-200 min-[700px] text-center">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
+            Schedule an Appointment
+          </h2>
+          <p className="mx-auto max-w-[600px] text-secondary-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            Ready to take the next step? Schedule a consultation with one of our
+            experts today.
+          </p>
+          <CalendlyEmbed url="https://calendly.com/violet-leonwebdesigns/30min" />
+        </section>
         <section
           id="contact"
           className="w-full py-12 md:py-24 lg:py-32 bg-muted"
@@ -269,11 +280,11 @@ export default function LandingPage() {
           <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight text-primary">
-                Schedule a Consultation
+                Have questions? Let's talk.
               </h2>
               <p className="mx-auto max-w-[600px] text-secondary-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Fill out the form below to schedule a consultation with our
-                software experts.
+                We're here to help you achieve your business goals. Contact us
+                today to schedule a consultation.
               </p>
             </div>
             <form
