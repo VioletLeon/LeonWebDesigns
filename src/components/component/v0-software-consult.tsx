@@ -44,21 +44,14 @@ export default function LandingPage() {
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link
-            href="#"
+            href="#services"
             className="text-sm font-medium hover:underline underline-offset-4 text-primary-foreground"
             prefetch={false}
           >
             Services
           </Link>
           <Link
-            href="#"
-            className="text-sm font-medium hover:underline underline-offset-4 text-primary-foreground"
-            prefetch={false}
-          >
-            About
-          </Link>
-          <Link
-            href="#"
+            href="#contact"
             className="text-sm font-medium hover:underline underline-offset-4 text-primary-foreground"
             prefetch={false}
           >
@@ -67,10 +60,12 @@ export default function LandingPage() {
         </nav>
       </header>
       <main className="flex-1">
-        <section className="w-full h-screen pt-24 md:pt-32 lg:pt-40 border-y bg-gradient-to-r from-primary to-secondary">
-          <div className="px-4 md:px-6 space-y-10 xl:space-y-16 h-full flex flex-col justify-center">
-            <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16">
-              <div>
+        <section className="w-full h-screen border-y from-primary to-secondary bg-black relative">
+          <div className="absolute inset-0 bg-black opacity-50 z-0"></div>{' '}
+          {/* Add this overlay */}
+          <div className="px-4 md:px-6 space-y-10 xl:space-y-16 h-full flex flex-col justify-center z-20 bg-[url('https://leon-web-designs.s3.amazonaws.com/hero.jpg')] bg-cover bg-center bg-no-repeat">
+            <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16 ">
+              <div className="z-10">
                 <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem] text-primary-foreground">
                   Unlock Your Software Potential
                 </h1>
@@ -91,7 +86,10 @@ export default function LandingPage() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-secondary to-tertiary">
+        <section
+          id="services"
+          className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-secondary to-tertiary"
+        >
           <div className="container space-y-12 px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
