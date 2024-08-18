@@ -95,7 +95,7 @@ export default function LandingPage() {
         <section className="w-full h-screen border-y from-primary to-secondary bg-black relative">
           <div className="absolute inset-0 bg-black opacity-50 z-0"></div>{' '}
           {/* Add this overlay */}
-          <div className="px-4 md:px-6 space-y-10 xl:space-y-16 h-full flex flex-col justify-center z-20 bg-[url('https://leon-web-designs.s3.amazonaws.com/hero.jpg')] bg-cover bg-center bg-no-repeat">
+          <div className="px-4 md:px-6 space-y-10 xl:space-y-16 h-full flex flex-col justify-center z-20 bg-[url('https://leon-web-designs.s3.amazonaws.com/hero.webp')] bg-cover bg-center bg-no-repeat">
             <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16 ">
               <div className="z-10">
                 <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem] text-primary-foreground">
