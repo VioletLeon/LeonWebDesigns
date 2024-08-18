@@ -22,7 +22,7 @@ const CalendlyEmbed = () => {
 
   return (
     <div
-      className="calendly-inline-widget h-[700px]"
+      className="calendly-inline-widget h-[700px] w-full mx-auto my-4"
       data-url="https://calendly.com/violet-leonwebdesigns/30min"
       style={{ minHeight: '650px', width: '100%' }}
     ></div>
