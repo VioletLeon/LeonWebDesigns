@@ -200,7 +200,7 @@ export default function LandingPage() {
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
                   Trusted Partners
                 </h2>
-                <p className="max-w-[900px] text-primary-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                <p className="max-w-[900px] text-black md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   We work with leading companies in the industry to deliver the
                   best solutions for our clients.
                 </p>
